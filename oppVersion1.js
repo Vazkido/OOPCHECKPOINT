@@ -57,6 +57,6 @@ class ShoppingCart {
   }
 
   addItem(product, quantity) {
-    this.item.pusj(new shoppingCartItem(product, quantity));
+    this.item.push(new shoppingCartItem(product, quantity));
   }
 }
