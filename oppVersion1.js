@@ -6,6 +6,8 @@ products.forEach(item) => {
   let delBtn = item.querySelector('.fa-trash-alt');
   let heart = item.querySelector('.fa-heart');
   let qty = item.querySelector('.quantity');
+  let quantity = parseInt(qty.textContent);
+  
 }
 
 
