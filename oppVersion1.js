@@ -5,7 +5,7 @@ products.forEach(item) => {
   let minus = item.querySelector('.fa-minus-circle');
   let delBtn = item.querySelector('.fa-trash-alt');
   let heart = item.querySelector('.fa-heart');
-  let qty = 
+  let qty = item.querySelector('.quantity');
 }
 
 
