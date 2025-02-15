@@ -1,5 +1,9 @@
 let products = document.querySelectorAll('.card-item')
 
+products.forEach(items) => {
+  let plus = item.querySelector('.fa-plus-circle');
+  let minus = item.querySelector('.fa-minus-circle');
+}
 
 
 
