@@ -7,7 +7,7 @@ products.forEach((item) => {
   let heart = item.querySelector('.fa-heart');
   let qty = item.querySelector('.quantity');
   let quantity = parseInt(qty.textContent);
-  let price = parseInt(item.querySelector('.unit-price'));
+  // let price = parseInt(item.querySelector('.unit-price').textContent.replace("$", ""));
   
 });
 
