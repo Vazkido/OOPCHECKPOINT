@@ -10,7 +10,8 @@ products.forEach((item) => {
   // let price = parseInt(item.querySelector('.unit-price').textContent.replace("$", ""));
 
   plus.addEventListener('click', () => {
-    
+    quantity++
+
   })
 });
 
