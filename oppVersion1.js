@@ -1,53 +1,20 @@
-let products = document.querySelectorAll('.card-item')
+let products = document.querySelectorAll(".card-item");
 
 products.forEach((item) => {
-  let plus = item.querySelector('.fa-plus-circle');
-  let minus = item.querySelector('.fa-minus-circle');
-  let delBtn = item.querySelector('.fa-trash-alt');
-  let heart = item.querySelector('.fa-heart');
-  let qty = item.querySelector('.quantity');
+  let plus = item.querySelector(".fa-plus-circle");
+  let minus = item.querySelector(".fa-minus-circle");
+  let delBtn = item.querySelector(".fa-trash-alt");
+  let heart = item.querySelector(".fa-heart");
+  let qty = item.querySelector(".quantity");
   let quantity = parseInt(qty.textContent);
   // let price = parseInt(item.querySelector('.unit-price').textContent.replace("$", ""));
 
-  plus.addEventListener('click', () => {
-    quantity++
-
-  })
+  plus.addEventListener("click", () => {
+    quantity++;
+    qty.innerHTML = quantity;
+    calcTotal("add");
+  });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // // CLASS WORK TO RECALL OOP LAST CLASS
 
